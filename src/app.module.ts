@@ -47,8 +47,8 @@ import { AlbumMusicianModule } from './albummusician/albummusician.module';
       keepConnectionAlive: true,
       migrations: [__dirname + '/migration/**/*{.ts,.js}'],
       migrationsRun: true,
-      ssl:{
-        rejectUnauthorized: false
+      ssl: { 
+        rejectUnauthorized: false 
       },
     }),
     RecordLabelModule,
